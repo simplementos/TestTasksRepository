@@ -1,0 +1,5 @@
+E:\Documents\6 курс\TestTask\BLL\bin\Debug\BLL.dll
+E:\Documents\6 курс\TestTask\BLL\bin\Debug\BLL.pdb
+E:\Documents\6 курс\TestTask\BLL\obj\Debug\BLL.dll
+E:\Documents\6 курс\TestTask\BLL\obj\Debug\BLL.pdb
+E:\Documents\6 курс\TestTask\BLL\obj\Debug\BLL.csproj.CoreCompileInputs.cache

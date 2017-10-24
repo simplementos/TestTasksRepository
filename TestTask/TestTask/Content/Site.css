@@ -1,0 +1,46 @@
+﻿body {
+    padding-top: 50px;
+    padding-bottom: 20px;
+}
+
+/* Set padding to keep content from hitting the edges */
+.body-content {
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+/* Set width on the form input elements since they're 100% wide by default */
+input,
+select,
+textarea {
+    max-width: 280px;
+}
+
+.results, .subArray, .sum, .input{
+    /*outline: solid;*/
+ 
+}
+ .results{
+    width: 50%;
+    float: right;
+      margin-right: 13%;
+ }
+
+ .input{
+     margin-left: 12%;
+ }
+
+ li:nth-child(2n+1){
+     background-color: aliceblue;
+ }
+
+ #sum{ 
+ background-color: aliceblue;
+ }
+ .result{
+     float: right;
+       width: 50%;  
+   
+      margin-right: 13%;
+     
+ }

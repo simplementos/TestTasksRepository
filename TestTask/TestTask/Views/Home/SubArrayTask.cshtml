@@ -1,0 +1,53 @@
+﻿
+
+<hr />
+<h4>SubArrayTask</h4>
+
+<div class="input form-group  col-md-3">
+    @using (Html.BeginForm())
+    {
+        @Html.ValidationMessage("inputArray", "", new { @class = "text-danger" })
+        <input type="text" name="inputArray" class="form-control " />
+        <br />               
+        <input type="submit" name="submit" value="GetSubArray" class="btn btn-primary" />
+    }
+</div>
+
+
+<div class="results">
+    <p>Array:</p>
+    <div class="array">
+        <ul>
+            @if (ViewBag.Array != null)
+            {
+                foreach (var item in ViewBag.Array)
+                {
+                    <li>@item</li>
+                }
+            }
+        </ul>
+
+    </div>
+
+    <p>SubArray:</p>
+    <div class="subArray">
+        <ul>
+
+            @if (ViewBag.SubArray != null)
+            {
+                foreach (var item in ViewBag.SubArray)
+                {
+                    <li>@item</li>
+                }
+            }
+        </ul>
+
+    </div>
+    <div class="sum">
+        <p>Sum:</p>
+        <p id="sum">@ViewBag.Sum</p>
+    </div>
+
+
+
+</div>

@@ -1,0 +1,26 @@
+﻿
+
+<hr/>
+<h4>ExpressionValidationTask</h4>
+
+<div class="input form-group  col-md-3">
+    @using (Html.BeginForm())
+    {
+        @Html.ValidationMessage("input", "", new { @class = "text-danger" })
+        <input type="text" name="input" class="form-control " />
+        <br />
+        <input type="submit" name="submit" value="Validate" class="btn btn-primary" />
+    }
+</div>
+
+<div class="result">
+    <div class="inputExpression">
+        <p>Input:  @TempData["Input"]</p>
+    </div>
+
+    <div class="answer">
+        <p>Validation result: @ViewBag.Result</p>
+    </div>
+</div>
+
+
